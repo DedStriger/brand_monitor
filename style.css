@@ -1,0 +1,422 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: #272833;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header .container{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header{
+	margin-top: 25px;
+}
+
+.mail-hide{
+	display: block;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.04em;
+	color: #CDCED9;
+	margin-right: 50px;
+	display: none;
+}
+
+.header-language-link{
+	text-decoration: none;
+}
+
+.header-language-link:first-child{
+	margin-right: 20px;
+}
+
+main {
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	margin-top: -44px;
+}
+
+.form-container{
+	padding-top: 60px;
+	padding-left: calc((100vw - 1200px) / 2);
+	padding-right: 40px;
+	background-color: #30313E;
+	min-height: calc(100vh - 60px);
+}
+
+.work-container{
+	margin-top: 80px;
+	margin-right: calc((100vw - 1200px) / 2);
+	width: 100%;
+	padding-left: 40px;
+}
+
+.main-title{
+	font-size: 72px;
+line-height: 72px;
+font-weight: 700;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #EEF2FA;
+margin-bottom: 25px;
+}
+
+.main-subtitle{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #FFFFFF;
+	margin-bottom: 61px;
+}
+
+.form label{
+	display: block;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 175.78%;
+	color: #CDCED9;
+	margin-bottom: 3px;
+}
+
+.form-input{
+	outline: none;
+	border: 1px solid #6B6C7E;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	background: transparent;
+	min-height: 52px;
+	margin-bottom: 6px;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+.form-subtitle{
+	font-size: 13px;
+	line-height: 175.78%;
+	color: #6B6C7E;
+	margin-bottom: 26px;
+}
+
+.form-btn{
+	outline: none;
+	border: 1px solid #CDCED9;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 12px 0;
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 175.78%;
+	color: #272833;
+	margin-bottom: 130px;
+	cursor: pointer;
+}
+
+.question, .mail-question{
+	font-size: 13px;
+line-height: 120%;
+color: #6B6C7E;
+}
+
+.mail-question{
+	text-decoration: none;
+	color: #CDCED9;
+}
+
+.work-title{
+	text-align: center;
+	font-weight: 900;
+	font-size: 21px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: #EEF2FA;
+	margin-bottom: 25px;
+}
+
+.step-one, .step-two-row-item, .step-three-row-item{
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 22px;
+	padding: 35px 0;
+	color: #CDCED9;
+	background: rgba(57, 58, 74, 0.5);
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.arrow{
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.step-two-row, .step-three-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.step-three-row{
+	margin-bottom: 50px;
+}
+
+.step-two-row-item, .step-three-row-item{
+	width: 100%;
+}
+
+.step-two-row-item{
+	padding: 22px 0;
+}
+
+.step-three-row-item{
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.step-two-row-item:not(:last-child), .step-three-row-item:not(:last-child){
+	margin-right: 20px;
+}
+
+.thief-container{
+	display: flex;
+}
+
+.thief-white-text{
+	font-weight: 900;
+font-size: 21px;
+line-height: 150%;
+letter-spacing: 0.1em;
+width: 100%;
+text-align: center;
+color: #EEF2FA;
+}
+
+.thief-red-text{
+	font-size: 15px;
+line-height: 150%;
+letter-spacing: 0.1em;
+color: #F48989;
+position: absolute;
+}
+
+.thief-text{
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.thief-red-text:nth-child(1){
+	left: 20px;
+	transform: rotate(-16.08deg);
+ top: 50%;
+}
+
+.thief-red-text:nth-child(2){
+	transform: rotate(3.19deg);
+	bottom: 0;
+	left: 152px;
+}
+
+.thief-red-text:nth-child(4){
+	transform: rotate(-14.13deg);
+	transform-origin: right top;
+ top: 20px;
+ right: 160px;
+}
+
+.thief-red-text:last-child{
+	transform: rotate(-2.2deg);
+	bottom: 0px;
+	right: 0;
+}
+
+.footer-mobile{
+	display: none;
+}
+
+@media(max-width: 1200px){
+	.container{
+		max-width: 100%;
+		margin: 0 40px;
+	}
+ 
+
+.form-container{
+
+	padding-left: 40px;
+}
+
+.work-container{
+	margin-right: 40px;
+}
+
+}
+
+
+@media(max-width: 769px){
+	main{
+		display: block;
+	}
+
+	.question, .mail-question{
+		display: none;
+	}
+
+	.form{
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.form-btn{
+		margin-top: 26px;
+		margin-left: 20px;
+		padding: 11.5px 16px;
+		width: auto;
+		margin-bottom: 0;
+	}
+
+	.main-title{
+		font-size: 64px;
+  line-height: 64px;
+	}
+
+	.main-subtitle{
+		max-width: 400px;
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.mail-hide{
+		display: block;
+	}
+
+	.form-container{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		min-height: auto;
+	}
+
+	.form-subtitle{
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+
+	.work-container{
+		margin-top: 60px;
+		padding-left: 0;
+		width: calc(100vw - 80px);
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.work-title{
+		font-size: 19px;
+		margin-bottom: 22px;
+	}
+
+	.step-one, .step-two-row-item, .step-three-row-item{
+		font-size: 17px;
+	}
+
+	.thief-container{
+		margin-bottom: 23px;
+	}
+
+	.arrow{
+		width: 49px;
+		height: auto;
+	}
+}
+
+@media(max-width: 560px){
+	.mail-hide, .thief-container{
+		display: none;
+	}
+
+	.main-title{
+		font-size: 32px;
+		line-height: 32px;
+		margin-bottom: 15px;
+	}
+
+	.main-subtitle{
+		font-size: 13px;
+		margin-bottom: 24px;
+	}
+
+	.footer-mobile{
+		margin-left: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		margin-right: 20px;
+	}
+
+	.footer-mobile, .footer-mobile .question, .footer-mobile .mail-question{
+		display: block;
+	}
+
+	.form{
+		display: block;
+	}
+
+	.form-btn{
+		padding-right: 0;
+		padding-left: 0;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.form-container{
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.work-container{
+		margin-top: 50px;
+		width: calc(100vw - 40px);
+	}
+
+	.step-two-row, .step-three-row{
+		display: block;
+	}
+
+	.arrow{
+		width: 33px;
+		margin-bottom: 6px;
+	}
+
+	.step-one, .step-two-row-item, .step-three-row-item{
+		margin-bottom: 6px;
+		font-size: 13px;
+  line-height: 15px;
+  padding: 14px 0;
+	}
+
+	.step-two-row-item > br, .step-three-row-item > div > br{
+		display: none;
+	}
+}
