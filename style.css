@@ -202,56 +202,7 @@ color: #6B6C7E;
 	display: flex;
 }
 
-.thief-white-text{
-	font-weight: 900;
-font-size: 21px;
-line-height: 150%;
-letter-spacing: 0.1em;
-width: 100%;
-text-align: center;
-color: #EEF2FA;
-}
 
-.thief-red-text{
-	font-size: 15px;
-line-height: 150%;
-letter-spacing: 0.1em;
-color: #F48989;
-position: absolute;
-}
-
-.thief-text{
-	position: relative;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	width: 100%;
-}
-
-.thief-red-text:nth-child(1){
-	left: 20px;
-	transform: rotate(-16.08deg);
- top: 50%;
-}
-
-.thief-red-text:nth-child(2){
-	transform: rotate(3.19deg);
-	bottom: 0;
-	left: 152px;
-}
-
-.thief-red-text:nth-child(4){
-	transform: rotate(-14.13deg);
-	transform-origin: right top;
- top: 20px;
- right: 160px;
-}
-
-.thief-red-text:last-child{
-	transform: rotate(-2.2deg);
-	bottom: 0px;
-	right: 0;
-}
 
 .footer-mobile{
 	display: none;
@@ -344,6 +295,10 @@ position: absolute;
 	.thief-container{
 		margin-bottom: 23px;
 	}
+ .thief{
+ 	width: 100%;
+ 	height: auto;
+ }
 
 	.arrow{
 		width: 49px;
@@ -352,6 +307,10 @@ position: absolute;
 }
 
 @media(max-width: 560px){
+
+	.container{
+		margin: 0 20px;
+	}
 	.mail-hide, .thief-container{
 		display: none;
 	}
