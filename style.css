@@ -276,7 +276,7 @@ position: absolute;
 }
 
 
-@media(max-width: 769px){
+@media(max-width: 1025px){
 	main{
 		display: block;
 	}
