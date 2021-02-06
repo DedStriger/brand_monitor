@@ -256,7 +256,7 @@ color: #6B6C7E;
 	.form-btn{
 		margin-top: 26px;
 		margin-left: 20px;
-		padding: 11.5px 16px;
+		padding: 11.5px 38px;
 		width: auto;
 		margin-bottom: 0;
 	}
@@ -321,7 +321,7 @@ color: #6B6C7E;
 	}
 }
 
-@media(max-width: 560px){
+@media(max-width: 600px){
 
 	.container{
 		margin: 0 20px;
